@@ -1,0 +1,28 @@
+.navbar {
+    display: none;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../pictures/iStock-862477938.jpg');
+    /* filter: grayscale(60%); */
+}
+
+.header {
+    margin-top: 30vh;
+}
+
+.welcome {
+    color: white;
+    font-size: 5rem;
+}
+
+.auth {
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 30px 10px 30px;
+}
