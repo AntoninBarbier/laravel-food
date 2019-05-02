@@ -5,9 +5,10 @@
 @stop
 
 @section('content')
-    <div clas="container home-header">
+<div class="header">
+    <div clas="container">
         <div class="row justify-content-center">
-            <div class="header">
+            <div>
                 <p class="welcome">Bienvenue sur Larafood !</p>
                 <div class="row justify-content-around">
                     <a href="{{ route('register') }}"><button class="auth">S'INSCRIRE</button></a>
@@ -16,6 +17,7 @@
             </div>
         </div>
     </div>
+</div>
 @endsection
 
 @section('pagespecificscripts')

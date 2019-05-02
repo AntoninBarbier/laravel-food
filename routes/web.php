@@ -11,15 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    if (Auth::check()) {
-        return view('home');
-    }
-    else {
-        return view('index');
-    }
-});
-
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
+
+Route::resource('meals', 'MealsController');

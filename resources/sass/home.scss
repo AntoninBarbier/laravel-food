@@ -1,16 +1,12 @@
-.navbar {
-    display: none;
-}
-
-#app {
-    width: 100vw;
-    height: 100vh;
-    background-image: url('../pictures/iStock-862477938.jpg');
-    /* filter: grayscale(60%); */
-}
+// .navbar {
+//     display: none;
+// }
 
 .header {
-    margin-top: 30vh;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('../../public/pictures/iStock-862477938.jpg');
+    /* filter: grayscale(60%); */
 }
 
 .welcome {
